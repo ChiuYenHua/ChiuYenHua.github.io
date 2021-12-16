@@ -65,12 +65,12 @@ a {
 }
 
 .probootstrap-header {
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 	width: 100%;
 	z-index: 12;
 	position: relative;
-	background: #f2f200;
+	background: #f2f2f2;
 	top: 0;
 	@media screen and (max-width: $screen-sm) {
 		padding-top: 50px;
@@ -446,7 +446,7 @@ a {
 }
 //section
 .probootstrap-section {
-	padding: 4em 0;
+	padding: 1em 0;
 	position: relative;
 	z-index: 2;
 	&.probootstrap-section-sm {
@@ -600,7 +600,8 @@ a {
 
 .probootstrap-footer {
 	border-top: 2px solid rgba(255,255,255,.1);
-	padding: 5em 0;
+	padding-top: 2em;
+	padding-bottom: 0em;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
 	}
