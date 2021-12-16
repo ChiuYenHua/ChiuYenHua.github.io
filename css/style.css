@@ -24,7 +24,7 @@ body {
   font-family: "Abel", sans-serif;
   line-height: 1.8;
   font-weight: 300;
-  color: #b2b8c2;
+  color: #B3ADA4;
 }
 
 ::selection {
@@ -41,7 +41,7 @@ h1, .page-title h1, h2, .section-heading h2, h3, .service.left-icon h3, .service
   margin: 1.414em 0 0.5em;
   line-height: 1.2;
   font-weight: 300;
-  color: #4a525d;
+  color: #B3ADA4;
 }
 
 h1, .page-title h1 {
