@@ -65,7 +65,7 @@ a {
 }
 
 .probootstrap-header {
-	padding-top: 10px;
+	padding-top: 1000px;
 	padding-bottom: 30px;
 	width: 100%;
 	z-index: 12;
@@ -73,7 +73,7 @@ a {
 	background: #F2F2F2;
 	top: 0;
 	@media screen and (max-width: $screen-sm) {
-		padding-top: 30px;
+		padding-top: 3000px;
 		padding-bottom: 30px;
 	}
 }
