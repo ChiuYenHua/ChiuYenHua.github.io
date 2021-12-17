@@ -358,7 +358,7 @@ a:hover, a:focus {
 
 .probootstrap-burger-menu {
   position: absolute;
-  top: 30px;
+  top: 50px;
   right: 20px;
 }
 
@@ -2299,7 +2299,7 @@ figure:hover figcaption, figure:focus figcaption {
   height: 50px;
   display: table;
   background: rgba(0, 0, 0, 0.5);
-  color: #b3ada4;
+  color: #181A1b;
   text-align: center;
   border-radius: 4px;
 }
