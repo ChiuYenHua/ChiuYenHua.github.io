@@ -19,12 +19,12 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #181A1b;
   font-size: 18px;
   font-family: "Abel", sans-serif;
   line-height: 1.8;
   font-weight: 300;
-  color: #B3ADA4;
+  color: #b2b8c2;
 }
 
 ::selection {
@@ -34,14 +34,14 @@ body {
 
 ::-moz-selection {
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
 }
 
 h1, .page-title h1, h2, .section-heading h2, h3, .service.left-icon h3, .service.left-icon .heading, .service .heading, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, h4, .probootstrap-panel .panel .panel-title {
   margin: 1.414em 0 0.5em;
   line-height: 1.2;
   font-weight: 300;
-  color: #B3ADA4;
+  color: #4a525d;
 }
 
 h1, .page-title h1 {
@@ -50,7 +50,12 @@ h1, .page-title h1 {
 }
 
 h2, .section-heading h2 {
+  color: #B3ada4;
   font-size: 1.424em;
+}
+
+p {
+  color: #b3ada4;
 }
 
 h3, .service.left-icon h3, .service.left-icon .heading, .service .heading, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading {
@@ -74,7 +79,7 @@ a {
   color: #B3ADA4;
 }
 a:hover, a:focus {
-  color: #485d98;
+  color: #a7a096;
   text-decoration: none !important;
 }
 
@@ -156,7 +161,7 @@ a:hover, a:focus {
   margin: 0;
 }
 .probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li a {
-  color: #ffffff;
+  color: #b3ada4;
   padding: 10px;
 }
 .probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li:first-child a {
@@ -214,7 +219,7 @@ a:hover, a:focus {
   display: block;
 }
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
-  color: #ffffff;
+  color: #b3ada4;
 }
 .probootstrap-main-nav li.active a {
   color: #B3ADA4;
@@ -223,7 +228,7 @@ a:hover, a:focus {
   color: #B3ADA4;
 }
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.active a {
-  color: #ffffff;
+  color: #b3ada4;
 }
 .probootstrap-mobile-menu-active .probootstrap-main-nav li {
   display: block;
@@ -260,7 +265,7 @@ a:hover, a:focus {
   margin-left: 5px;
 }
 .probootstrap-header-social li a {
-  color: #ffffff;
+  color: #181A1b;
 }
 
 .probootstrap-right-nav {
@@ -295,18 +300,18 @@ a:hover, a:focus {
   display: inline-block;
   width: 18px;
   height: 2px;
-  color: #a4abb6;
+  color: #B3ada4;
   font: bold 14px/0.4 Helvetica, arial;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #a4abb6;
+  background: #B3ada4;
   transition: all 0.2s ease-out;
 }
 .probootstrap-burger-menu i::before, .probootstrap-burger-menu i::after {
   content: "";
   width: 18px;
   height: 2px;
-  background: #a4abb6;
+  background: #B3ada4;
   position: absolute;
   left: 0;
   transition: all 0.2s ease-out;
@@ -344,11 +349,11 @@ a:hover, a:focus {
 }
 
 .probootstrap-mobile-menu-active.show .probootstrap-burger-menu i {
-  color: #ffffff;
+  color: #b3ada4;
   background: #000000;
 }
 .probootstrap-mobile-menu-active.show .probootstrap-burger-menu i::before, .probootstrap-mobile-menu-active.show .probootstrap-burger-menu i::after {
-  background: #ffffff;
+  background: #b3ada4;
 }
 
 .probootstrap-burger-menu {
@@ -383,16 +388,16 @@ a:hover, a:focus {
 .btn.btn-primary {
   border: 2px solid #B3ADA4;
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #5f76b3;
-  color: #ffffff;
-  border: 2px solid #5f76b3;
+  background: #bfbab2;
+  color: #181A1b;
+  border: 2px solid #bfbab2;
 }
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 2px solid #5f76b3;
+  border: 2px solid #bfbab2;
 }
 .btn.btn-ghost {
   background: transparent;
@@ -401,7 +406,7 @@ a:hover, a:focus {
 }
 .btn.btn-ghost:hover {
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
   border: 2px solid #B3ADA4;
 }
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
@@ -412,33 +417,33 @@ a:hover, a:focus {
 }
 .btn.btn-ghost.btn-ghost-white {
   background: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #181A1b;
+  color: #181A1b;
 }
 .btn.btn-ghost.btn-ghost-white:hover {
-  background: #ffffff;
+  background: #181A1b;
   color: #B3ADA4;
 }
 .btn.btn-ghost.btn-ghost-white:focus, .btn.btn-ghost.btn-ghost-white:active {
   outline: none;
-  background: #ffffff;
+  background: #181A1b;
   color: #B3ADA4;
-  border: 2px solid #ffffff;
+  border: 2px solid #181A1b;
 }
 .btn.btn-black {
   background: #000000;
-  color: #ffffff;
+  color: #181A1b;
   border: 1px solid #000000;
 }
 .btn.btn-black:hover {
   background: #000000;
-  color: #ffffff;
+  color: #181A1b;
   border: 1px solid #000000;
 }
 .btn.btn-black:focus, .btn.btn-black:active {
   outline: none;
   background: #000000;
-  color: #ffffff;
+  color: #181A1b;
   border: 1px solid #000000;
 }
 
@@ -462,13 +467,13 @@ a:hover, a:focus {
 }
 .probootstrap-section.probootstrap-section-colored, .probootstrap-section.probootstrap-section-dark {
   background: #B3ADA4;
-  background: #B3ADA4;
-  background: -moz-linear-gradient(left, #B3ADA4 0%, #B3ADA4 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #B3ADA4), color-stop(100%, #B3ADA4));
-  background: -webkit-linear-gradient(left, #B3ADA4 0%, #B3ADA4 100%);
-  background: -o-linear-gradient(left, #B3ADA4 0%, #B3ADA4 100%);
-  background: -ms-linear-gradient(left, #B3ADA4 0%, #B3ADA4 100%);
-  background: linear-gradient(to right, #B3ADA4 0%, #B3ADA4 100%);
+  background: #b3ada4;
+  background: -moz-linear-gradient(left, #b3ada4 0%, #b3ada4 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #b3ada4), color-stop(100%, #b3ada4));
+  background: -webkit-linear-gradient(left, #b3ada4 0%, #b3ada4 100%);
+  background: -o-linear-gradient(left, #b3ada4 0%, #b3ada4 100%);
+  background: -ms-linear-gradient(left, #b3ada4 0%, #b3ada4 100%);
+  background: linear-gradient(to right, #b3ada4 0%, #b3ada4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1 );
 }
 .probootstrap-section.probootstrap-section-colored .section-heading h2, .probootstrap-section.probootstrap-section-dark .section-heading h2 {
@@ -526,7 +531,7 @@ a:hover, a:focus {
 .probootstrap-section.probootstrap-bg .heading {
   margin-top: 0;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #181A1b;
   font-family: "Abel", sans-serif;
   font-size: 30px;
   line-height: 30px;
@@ -600,7 +605,6 @@ a:hover, a:focus {
 }
 
 .probootstrap-footer {
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
   padding-top: 2em;
   padding-bottom: 0em;
 }
@@ -671,7 +675,7 @@ a:hover, a:focus {
   color: rgba(255, 255, 255, 0.2);
 }
 .stack-link a:hover small {
-  color: #ffffff;
+  color: #181A1b;
 }
 
 .section-heading {
@@ -850,7 +854,7 @@ figure:hover figcaption, figure:focus figcaption {
 .slides-text h2 {
   font-weight: 100;
   font-size: 50px;
-  color: #ffffff;
+  color: #181A1b;
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
@@ -899,7 +903,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 .probootstrap-card.probootstrap-listing {
   margin-bottom: 20px;
-  background: #ffffff;
+  background: #181A1b;
   float: left;
   width: 100%;
   transition: 0.3s all ease-in-out;
@@ -918,7 +922,7 @@ figure:hover figcaption, figure:focus figcaption {
   position: absolute;
   bottom: -20px;
   right: 15px;
-  background: #ffffff;
+  background: #181A1b;
   transition: 0.3s all ease-in;
   display: inline-block;
   *display: inline;
@@ -932,14 +936,14 @@ figure:hover figcaption, figure:focus figcaption {
   -moz-box-shadow: 0px 2px 8px -6px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 2px 8px -6px rgba(0, 0, 0, 0.7);
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
 }
 .probootstrap-card.probootstrap-listing .probootstrap-card-media .probootstrap-love.active {
   -webkit-box-shadow: 0px 6px 8px -6px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 6px 8px -6px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 6px 8px -6px rgba(0, 0, 0, 0.1);
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
 }
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-location {
   display: table;
@@ -968,7 +972,7 @@ figure:hover figcaption, figure:focus figcaption {
   zoom: 1;
   padding: 2px 10px;
   border-radius: 4px;
-  color: #ffffff;
+  color: #181A1b;
   text-transform: uppercase;
   font-size: 10px;
 }
@@ -989,7 +993,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 .probootstrap-card.probootstrap-listing .probootstrap-card-extra {
   float: left;
-  background: #ffffff;
+  background: #181A1b;
   width: 100%;
   border-top: 1px solid #f0f0f0;
 }
@@ -1027,7 +1031,7 @@ figure:hover figcaption, figure:focus figcaption {
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 .probootstrap-card.probootstrap-person h2, .probootstrap-card.probootstrap-person .section-heading h2, .section-heading .probootstrap-card.probootstrap-person h2 {
-  color: #ffffff !important;
+  color: #181A1b !important;
 }
 .probootstrap-card.probootstrap-person .probootstrap-card-media {
   padding-top: 30px;
@@ -1059,7 +1063,7 @@ figure:hover figcaption, figure:focus figcaption {
   padding: 30px;
   background: rgba(0, 0, 0, 0.85);
   margin-top: 300px;
-  color: #ffffff;
+  color: #181A1b;
   text-align: center;
   float: left;
   width: 100%;
@@ -1087,7 +1091,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 .probootstrap-home-search .heading {
   font-size: 24px;
-  color: #ffffff;
+  color: #181A1b;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 300;
@@ -1219,14 +1223,14 @@ figure:hover figcaption, figure:focus figcaption {
   text-align: center;
   border-radius: 50%;
   background: #B3ADA4;
-  color: #ffffff;
+  color: #181A1b;
 }
 
 .product-item, .media-item {
   -webkit-box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 6px 68px -6px rgba(0, 0, 0, 0.09);
-  background: #ffffff;
+  background: #181A1b;
   margin-bottom: 30px;
   border-radius: 7px;
   overflow: hidden;
@@ -1291,7 +1295,7 @@ figure:hover figcaption, figure:focus figcaption {
   color: rgba(255, 255, 255, 0.2);
 }
 .probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text .service .heading, .service .probootstrap-half .text .heading, .probootstrap-half .text .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-half .text .probootstrap-card-heading, .probootstrap-half .text h4, .probootstrap-half .text .probootstrap-panel .panel .panel-title, .probootstrap-panel .panel .probootstrap-half .text .panel-title, .probootstrap-half .text h5 {
-  color: #ffffff;
+  color: #181A1b;
 }
 .probootstrap-half .text h3, .probootstrap-half .text .service .heading, .service .probootstrap-half .text .heading, .probootstrap-half .text .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-half .text .probootstrap-card-heading {
   line-height: 30px;
@@ -1328,8 +1332,8 @@ figure:hover figcaption, figure:focus figcaption {
 }
 .probootstrap-half .btn-ghost-white:hover, .probootstrap-half .btn-ghost-white:active, .probootstrap-half .btn-ghost-white:focus {
   background: none !important;
-  color: #ffffff !important;
-  border-color: #B3ADA4 !important;
+  color: #181A1b !important;
+  border-color: #b3ada4 !important;
 }
 .probootstrap-half .service-item {
   position: relative;
@@ -1407,7 +1411,7 @@ figure:hover figcaption, figure:focus figcaption {
   transform: translateX(-50%) translateY(-50%);
 }
 .probootstrap-hover-overlay .probootstrap-text-overlay h3, .probootstrap-hover-overlay .probootstrap-text-overlay .service .heading, .service .probootstrap-hover-overlay .probootstrap-text-overlay .heading, .probootstrap-hover-overlay .probootstrap-text-overlay .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-card .probootstrap-card-text .probootstrap-hover-overlay .probootstrap-text-overlay .probootstrap-card-heading {
-  color: #ffffff;
+  color: #181A1b;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -1658,7 +1662,7 @@ figure:hover figcaption, figure:focus figcaption {
   padding-right: 30px;
 }
 .flexslider .probootstrap-heading, .flexslider2 .probootstrap-heading {
-  color: #ffffff;
+  color: #181A1b;
   font-weight: 300;
   font-size: 170px;
   line-height: 60px;
@@ -1890,11 +1894,11 @@ figure:hover figcaption, figure:focus figcaption {
 
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-next i,
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-prev i {
-  color: #ffffff;
+  color: #181A1b;
 }
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-next:hover i,
 .owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-prev:hover i {
-  color: #ffffff;
+  color: #181A1b;
 }
 
 @media screen and (max-width: 768px) {
@@ -2236,7 +2240,7 @@ figure:hover figcaption, figure:focus figcaption {
 }
 
 .probootstrap-white-color {
-  color: #ffffff !important;
+  color: #181A1b !important;
 }
 
 .probootstrap-primary-color {
@@ -2273,7 +2277,7 @@ figure:hover figcaption, figure:focus figcaption {
   width: 100vw;
   height: 100vh;
   z-index: 9999;
-  background: #ffffff url(../img/preloader.gif) center no-repeat;
+  background: #181A1b url(../img/preloader.gif) center no-repeat;
 }
 
 .gototop {
@@ -2295,7 +2299,7 @@ figure:hover figcaption, figure:focus figcaption {
   height: 50px;
   display: table;
   background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
+  color: #b3ada4;
   text-align: center;
   border-radius: 4px;
 }

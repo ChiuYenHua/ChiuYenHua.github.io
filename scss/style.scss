@@ -23,7 +23,7 @@ body {
 // selection
 ::selection {
   background: $brand-primary;
-  color: $brand-white;
+  color: #ffffff;
 }
 ::-moz-selection {
   background: $brand-primary;
@@ -42,7 +42,13 @@ h1 {
   font-size: 1.602em;
 }
 
-h2 {font-size: 1.424em;}
+h2 {
+	color : #B3ada4;
+	font-size: 1.424em;
+}
+p{
+	color : #b3ada4;
+}
 
 h3 {font-size: 1.266em;}
 
@@ -132,7 +138,7 @@ a {
 					padding: 0;
 					margin: 0;
 					a {
-						color: $brand-white;
+						color: #b3ada4;
 						padding: 10px;
 					}
 					&:first-child {
@@ -196,7 +202,7 @@ a {
 			}
 			.probootstrap-mobile-menu-active & {
 				&:hover {
-					color: $brand-white;
+					color: #b3ada4;
 				}
 			}
 		}
@@ -209,7 +215,7 @@ a {
 				}
 				.probootstrap-mobile-menu-active & {
 
-					color: $brand-white;
+					color: #b3ada4;
 				}
 			}
 		}
@@ -286,17 +292,17 @@ a {
     display: inline-block;
     width: 18px;
     height: 2px;
-    color: darken(#C0C5CD, 10%);
+    color: #B3ada4;//darken(#C0C5CD, 10%);
     font:bold 14px/.4 Helvetica, arial;
     text-transform: uppercase;
     text-indent:-55px;
-    background: darken(#C0C5CD, 10%);
+    background: #B3ada4;//darken(#C0C5CD, 10%);
     transition:all .2s ease-out;
     &::before, &::after {
       content:'';
       width: 18px;
       height: 2px;
-      background: darken(#C0C5CD, 10%);
+      background: #B3ada4;//darken(#C0C5CD, 10%);
       position: absolute;
       left:0;
       transition: all .2s ease-out;
@@ -344,10 +350,10 @@ a {
 .probootstrap-mobile-menu-active.show {
 	.probootstrap-burger-menu {
 	  i {
-	    color: $brand-white;
+	    color: #b3ada4;
 	    background: $brand-black;
 	    &::before, &::after {
-	      background: $brand-white;
+	      background: #b3ada4;
 	    }
 	  }
 	}
@@ -599,7 +605,7 @@ a {
 
 
 .probootstrap-footer {
-	border-top: 2px solid rgba(255,255,255,.1);
+	//border-top: 2px solid rgba(255,255,255,.1);
 	padding-top: 2em;
 	padding-bottom: 0em;
 	@media screen and (max-width: $screen-sm) {
@@ -703,7 +709,7 @@ a {
 		position: absolute;
 
 		h2, p {
-			color: $brand-white;
+			color: #ffffff;
 			position: relative;
 		}
 		h2 {
