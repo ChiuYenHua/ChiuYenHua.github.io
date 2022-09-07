@@ -3,12 +3,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: 'Raleway', sans-serif;
 }
 
 #banner {
-  background-image: url("pic/chrisFire.jpeg");
+  background-image: url("pic_portra/africa.jpg");
   background-size: cover;
   background-position: bottom center;
   width: 100%;
@@ -16,22 +16,21 @@ body {
 }
 
 h1 {
-  color: white;
+  color: MidnightBlue;
   font-size: 50px;
   font-weight: 600;
   text-align: center;
   font-weight: bold;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-family: Gadget, sans-serif;
 }
 
 #banner .content h1 {
-  border: solid 5px white;
+  border: solid 5px MidnightBlue;
   position: relative;
   top: 200px;
   width: 400px;
   margin: 0 auto;
   border-radius: 15px;
-  opacity: 0.7;
 }
 
 #gameboard {
@@ -51,7 +50,7 @@ h1 {
 
 .card:hover {
   opacity: 0.8;
-  cursor: url('film_pic/acros100.png'), default !important;
+  cursor: url('film_pic/portra400_100.png'), default !important;
 }
 
 .card img {
@@ -64,11 +63,11 @@ nav {
 }
 
 nav > ul {
-    background-color: black;
+    background-color: white;
     list-style: none;   /* 移除項目符號 */
     margin: 0;
     padding: 0;
-    color: white;
+    color: MidnightBlue;
     font-weight: bold;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
@@ -79,12 +78,12 @@ nav a {
     font-size: 1.2rem;
     padding: 30px;
     text-decoration: none;  /* 移除超連結底線 */
-    border: 5px white solid;
+    border: 5px MidnightBlue solid;
 }
 
 /* 滑鼠移到 <a> 時變成深底淺色 */
 nav li:hover {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(135, 206, 250);
 }
 
 .flex-nav {
