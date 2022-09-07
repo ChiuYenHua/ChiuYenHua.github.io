@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   width: 100%;
-  height: 1200px;
+  height: 1100px;
 }
 
 h1 {
@@ -20,7 +20,6 @@ h1 {
   font-size: 50px;
   font-weight: 600;
   text-align: center;
-  font-weight: bold;
   font-family: Gadget, sans-serif;
 }
 
@@ -83,7 +82,8 @@ nav a {
 
 /* 滑鼠移到 <a> 時變成深底淺色 */
 nav li:hover {
-    background-color: rgb(135, 206, 250);
+    background-color: MidnightBlue;
+    color: white;
 }
 
 .flex-nav {

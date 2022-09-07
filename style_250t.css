@@ -4,7 +4,7 @@
 
 body {
   background-color: Gainsboro;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #banner {
@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   width: 100%;
-  height: 1200px;
+  height: 1100px;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
   font-size: 50px;
   font-weight: 600;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #banner .content h1 {
@@ -62,7 +62,7 @@ nav {
 }
 
 nav > ul {
-    background-color: Silver;
+    background-color: Gainsboro;
     list-style: none;   /* 移除項目符號 */
     margin: 0;
     padding: 0;
@@ -82,7 +82,8 @@ nav a {
 
 /* 滑鼠移到 <a> 時變成深底淺色 */
 nav li:hover {
-    background-color: rgb(160, 160, 160);
+    background-color: DimGray;
+    color: white;
 }
 
 .flex-nav {
